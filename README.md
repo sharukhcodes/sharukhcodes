@@ -242,20 +242,6 @@ Git & GitHub       ██████████░░░░░ 75%
 
 ---
 
-# 🐍 Contribution Snake
-
-> Enable the GitHub Action below to display your contribution snake.
-
-```html
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/sharukhcodes/sharukhcodes/output/github-contribution-grid-snake.svg"/>
-
-</p>
-```
-
----
-
 <h2 align="center">
 
 ⭐ Thank You For Visiting My Profile ⭐
