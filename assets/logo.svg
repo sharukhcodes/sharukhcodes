@@ -1,0 +1,33 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SA Minimal Neon Logo</title>
+  <desc id="desc">Circular transparent logo with purple neon SA letters and glassmorphism style.</desc>
+  <defs>
+    <radialGradient id="bg-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d27bff" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#0e0015" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="border-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a35dff" />
+      <stop offset="100%" stop-color="#6d2cff" />
+    </linearGradient>
+    <filter id="glass-blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blurred" />
+      <feComposite in="blurred" in2="SourceGraphic" operator="over" />
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" fill="transparent" />
+  <circle cx="512" cy="512" r="430" fill="rgba(30, 10, 50, 0.18)" stroke="url(#border-gradient)" stroke-width="24" filter="url(#glass-blur)" />
+  <circle cx="512" cy="512" r="380" fill="rgba(255, 255, 255, 0.04)" />
+  <circle cx="512" cy="512" r="360" fill="url(#bg-glow)" />
+  <path d="M330 290 L330 730 Q330 790 390 790 L470 790 Q520 790 520 740 L520 430" fill="none" stroke="#eb92ff" stroke-width="54" stroke-linecap="round" stroke-linejoin="round" opacity="0.95" />
+  <path d="M330 290 L480 290 Q520 290 520 330 L520 540" fill="none" stroke="#eb92ff" stroke-width="54" stroke-linecap="round" stroke-linejoin="round" opacity="0.95" />
+  <path d="M520 540 L520 760 Q520 810 570 810 L635 810 Q700 810 700 740 L700 440" fill="none" stroke="#cb5dff" stroke-width="54" stroke-linecap="round" stroke-linejoin="round" opacity="0.95" />
+  <path d="M700 290 L700 590 Q700 650 650 690 L610 730" fill="none" stroke="#cb5dff" stroke-width="54" stroke-linecap="round" stroke-linejoin="round" opacity="0.95" />
+  <path d="M700 290 L630 290 Q590 290 590 330 L590 440" fill="none" stroke="#b76eff" stroke-width="54" stroke-linecap="round" stroke-linejoin="round" opacity="0.95" />
+  <g opacity="0.32">
+    <circle cx="540" cy="300" r="8" fill="#e2b2ff" />
+    <circle cx="320" cy="520" r="6" fill="#d6a2ff" />
+    <circle cx="450" cy="720" r="5" fill="#f4d1ff" />
+    <circle cx="700" cy="620" r="7" fill="#c990ff" />
+  </g>
+</svg>

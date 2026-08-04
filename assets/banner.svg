@@ -1,0 +1,135 @@
+<svg width="1500" height="500" viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sharuk Ahmed GitHub Profile Banner</title>
+  <desc id="desc">Cyberpunk purple neon GitHub banner with dark background, glowing lines, coding particles, and modern glassmorphism.</desc>
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05020b" />
+      <stop offset="45%" stop-color="#0a0221" />
+      <stop offset="100%" stop-color="#14042f" />
+    </linearGradient>
+    <radialGradient id="glow-purple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff6bff" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#170019" stop-opacity="0" />
+    </radialGradient>
+    <filter id="soft-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="20" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <linearGradient id="text-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8c4ff" />
+      <stop offset="100%" stop-color="#ab2fff" />
+    </linearGradient>
+    <filter id="glass" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.6" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <pattern id="code-pattern" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M0,4 L24,4 M0,12 L24,12 M0,20 L24,20" stroke="#3f1f5f" stroke-opacity="0.4" stroke-width="1" />
+      <path d="M6,0 L6,24 M18,0 L18,24" stroke="#4f2e7d" stroke-opacity="0.25" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1500" height="500" fill="url(#bg-gradient)" />
+  <rect x="0" y="0" width="1500" height="500" fill="url(#code-pattern)" opacity="0.48" />
+
+  <rect x="120" y="90" width="520" height="320" rx="26" ry="26" fill="#170114" opacity="0.76" filter="url(#glass)" />
+  <rect x="130" y="100" width="500" height="300" rx="20" ry="20" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="2" />
+  <rect x="960" y="100" width="420" height="300" rx="26" ry="26" fill="#170114" opacity="0.76" filter="url(#glass)" />
+  <rect x="970" y="110" width="400" height="280" rx="20" ry="20" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="2" />
+
+  <g filter="url(#soft-glow)">
+    <circle cx="350" cy="180" r="92" fill="rgba(140, 34, 255, 0.18)" />
+    <circle cx="1150" cy="170" r="74" fill="rgba(168, 60, 255, 0.14)" />
+    <circle cx="940" cy="380" r="64" fill="rgba(105, 0, 255, 0.12)" />
+    <circle cx="200" cy="380" r="44" fill="rgba(110, 55, 255, 0.14)" />
+  </g>
+
+  <g stroke="#a64cff" stroke-opacity="0.6" stroke-width="2" fill="none">
+    <path d="M100 300 C 290 230, 370 120, 520 150" />
+    <path d="M120 340 C 235 300, 370 240, 490 330" />
+    <path d="M1240 140 C 1190 240, 1150 300, 1080 340" />
+    <path d="M1280 240 C 1180 260, 1110 310, 1040 290" />
+  </g>
+
+  <g stroke="#8a2bff" stroke-opacity="0.85" stroke-width="1" fill="none">
+    <path d="M122 170 L 300 170 L 360 210" />
+    <path d="M132 200 L 260 200 L 330 235" />
+    <path d="M960 140 L 1180 140 L 1230 170" />
+    <path d="M970 180 L 1090 180 L 1140 210" />
+  </g>
+
+  <g fill="#9c4bff" opacity="0.85">
+    <rect x="230" y="214" width="18" height="120" rx="8" />
+    <rect x="262" y="224" width="14" height="88" rx="6" />
+    <rect x="288" y="234" width="10" height="56" rx="5" />
+  </g>
+
+  <path d="M1100 260 C 1160 180, 1290 170, 1300 260" fill="none" stroke="#d289ff" stroke-width="3" stroke-opacity="0.48" />
+  <path d="M1100 280 C 1160 340, 1290 350, 1300 280" fill="none" stroke="#b47cff" stroke-width="2" stroke-opacity="0.3" />
+
+  <g fill="#c589ff" opacity="0.32">
+    <circle cx="420" cy="125" r="8" />
+    <circle cx="460" cy="95" r="5" />
+    <circle cx="520" cy="145" r="6" />
+    <circle cx="530" cy="80" r="10" />
+    <circle cx="1280" cy="90" r="8" />
+    <circle cx="1380" cy="150" r="6" />
+    <circle cx="1400" cy="240" r="4" />
+  </g>
+
+  <g fill="#fff" opacity="0.16">
+    <circle cx="780" cy="90" r="4" />
+    <circle cx="850" cy="70" r="3" />
+    <circle cx="920" cy="110" r="5" />
+    <circle cx="1030" cy="90" r="4" />
+    <circle cx="1100" cy="60" r="3" />
+  </g>
+
+  <g transform="translate(165 160)">
+    <rect x="0" y="0" width="210" height="32" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)" />
+    <text x="16" y="21" fill="#c79cff" font-family="Inter, sans-serif" font-size="14" letter-spacing="1.4">FULL STACK DEVELOPER</text>
+  </g>
+
+  <text x="160" y="220" fill="url(#text-gradient)" font-family="Poppins, sans-serif" font-size="72" font-weight="800" letter-spacing="1.4">SHARUK AHMED</text>
+  <text x="160" y="280" fill="#dfccff" font-family="Inter, sans-serif" font-size="28" letter-spacing="1.2">React • Node.js • MongoDB</text>
+
+  <g transform="translate(980 220)">
+    <rect x="0" y="0" width="280" height="90" rx="18" fill="rgba(30, 12, 52, 0.72)" stroke="rgba(255,255,255,0.16)" stroke-width="2" />
+    <text x="24" y="34" fill="#f7e7ff" font-family="Inter, sans-serif" font-size="20" font-weight="700">Cyberpunk</text>
+    <text x="24" y="56" fill="#cca7ff" font-family="Inter, sans-serif" font-size="16">Purple Neon • Dark Background</text>
+    <text x="24" y="78" fill="#c59cff" font-family="Inter, sans-serif" font-size="14">Coding lines • Glowing particles</text>
+  </g>
+
+  <g opacity="0.16" fill="none" stroke="#8f5bff" stroke-width="2">
+    <rect x="132" y="105" width="140" height="16" rx="8" />
+    <rect x="132" y="130" width="110" height="10" rx="5" />
+    <rect x="132" y="148" width="90" height="10" rx="5" />
+    <rect x="980" y="125" width="120" height="14" rx="7" />
+    <rect x="980" y="150" width="90" height="10" rx="5" />
+  </g>
+
+  <g stroke="#a76bff" stroke-width="1.2" opacity="0.22">
+    <line x1="1040" y1="195" x2="1140" y2="195" />
+    <line x1="1040" y1="205" x2="1140" y2="205" />
+    <line x1="1040" y1="215" x2="1120" y2="215" />
+  </g>
+
+  <path d="M530 78 C 580 40, 760 40, 810 78" fill="none" stroke="#b46cff" stroke-width="4" opacity="0.4" />
+  <path d="M530 420 C 600 360, 770 360, 840 420" fill="none" stroke="#903dff" stroke-width="4" opacity="0.3" />
+
+  <circle cx="450" cy="380" r="12" fill="#bb8cff" opacity="0.6" />
+  <circle cx="1240" cy="340" r="10" fill="#c47cff" opacity="0.58" />
+  <circle cx="960" cy="100" r="7" fill="#ffc2ff" opacity="0.85" />
+
+  <rect x="1220" y="360" width="180" height="10" rx="5" fill="#8e4cff" opacity="0.22" />
+  <rect x="1250" y="380" width="130" height="8" rx="4" fill="#9e5dff" opacity="0.18" />
+</svg>
